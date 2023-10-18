@@ -1,0 +1,171 @@
+﻿
+.clrFlt{clear:both !important;margin:0;padding:0;font-size:0;line-height:0;height:0;}
+
+/*---------------------------------
+	Columns
+---------------------------------*/
+.adjust96{width:960px}
+.column-960{width:960px;margin:0px auto;}
+
+.column-680, .column-280, .column-480, .column-320, .column-240{float:left;display:inline}
+/* 70% Column 3/4 */
+.column-680{width:680px;}
+/* 30% Column 1/4 */
+.column-280{width:280px;}
+/* Two column */
+.column-480{width:480px;}
+/* Three column */
+.column-320{width:320px;}
+/* Four column */
+.column-240{width:240px;}
+
+span.success, span.error, span.warning{display:block;border: solid 1px #1d9100; padding:0.3em; line-height: 1.6em; font-family: Arial, Tahoma; font-size: 0.9em; font-weight: normal; color: #414241; padding-left:2.2em;}
+
+span.success{background:#c9f9c6 url('../Images/remark-ok.png') no-repeat 0.3em center;border-color:#1d9100 !important}
+span.error{background:#ffece8 url('../Images/remark-error.png')no-repeat 0.3em center;border-color:#cd0000 !important}
+span.warning{background:#ffffe1 url(../images/warning.png) no-repeat 5px center;border-color:#e6db5b !important}
+
+/*---------------------------------
+	General Elements
+---------------------------------*/
+.clear
+{
+	clear:both;
+	height:0;
+	line-height:0;
+	font-size:0;
+	visibility:hidden;
+}
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, table
+{
+	margin-bottom:0.8em;
+}
+/* Padding */
+.pad-LR-12{padding-left:0.7em;padding-right:0.7em;}
+.pad-LR-15{padding-left:0.9em;padding-right:0.9em;}
+.pad-TB-12{padding-top:0.7em;padding-bottom:0.7em;}
+.pad-TB-15{padding-top:0.9em;padding-bottom:0.9em;}
+.pad-R-12{padding-right:0.7em;}
+.pad-L-12{padding-left:0.7em;}
+
+/* Margin */
+.mar-R-12{margin-right:0.7em;}
+.mar-L-12{margin-left:0.7em;}
+.mar-R-24{margin-right:1.5em;}
+.mar-L-24{margin-left:1.5em;}
+.mar-T-24{margin-top:1.5em;}
+.mar-B-24{margin-bottom:1.5em;}
+.mar-B-15{margin-bottom:0.9em;}
+.mar-B-10{margin-bottom:0.6em;}
+
+.pad_10{padding:0.6em 0.9em}
+.pad_tb_10{padding:0.6em 0}
+
+.padding-offset
+{
+	padding:0.8em;
+}
+.padding-offset-15
+{
+	padding:0.9em;
+	padding-right:0.9em;
+}
+
+.padding-top-bottom
+{
+	padding-top:0.8em;
+	padding-bottom:0.8em;
+}
+.padding-right
+{
+	padding-right:0.8em;
+}
+.padding-left
+{
+	padding-left:0.8em;
+}
+.spacer10
+{
+	height:0.6em;
+	display:block;
+}
+.spacer
+{
+	height:0.9em;
+	display:block;
+}
+  /* Horizontal padding in Percentage */
+    .padding-right-prc
+    {
+	    padding-right:2%;
+    }
+    .padding-left-prc
+    {
+	    padding-left:2%;
+    }
+p
+{
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.3em;
+}
+.left
+{
+	float:left;
+	display:inline;
+}
+.right
+{
+	float:right;
+	display:inline;
+}
+
+.loaderWait{display:inline-block;background:url(../images/ajax-loader.gif);height:31px;width:31px;visibility:hidden}
+
+@media screen and (max-width: 1024px)
+{
+    /* 70% Column */
+    .column-680
+    {
+        width:70%;    
+    }
+    /* 50% Column */
+    .column-480
+    {
+        width:50%;
+    }
+    .column-320
+    {
+        width:33%;
+    }
+    /* 30% Column */
+    .column-280
+    {
+        width:30%;    
+    }
+    .column-240
+    {
+        width:25%;    
+    }
+    
+    .adjust96{width:96%}
+    .column-960{width:96%;margin:0 2%;}
+}
+@media screen and (max-width: 768px)
+{
+.column-840, .column-800, .column-768, .column-720, .column-680, .column-640, .column-600, .column-576, .column-540, .column-480, .column-400, .column-384, .column-360, .column-320, .column-288, .column-280, .column-256, .column-240, .column-190,.column-192, .column-180, .column-160, .column-120, .column-96, .column-48
+
+    {
+	    float:none !important;
+	    display:block !important;
+	    width:100% !important;
+    }
+}
+/*--------------Intellect Systems---------------*/
+.bordLeft{border-left:solid 1px #417630 !important}
+
+/* Rounded corners */
+.round10{-moz-border-radius:0.6em;border-radius:0.6em;-webkit-border-radius:0.3em; behavior: url('../ie-css3.htc');} 
+.round5{-moz-border-radius:0.3em;border-radius:0.3em;-webkit-border-radius:0.3em; behavior: url('../ie-css3.htc');} 
+.round3{-moz-border-radius:0.3em;border-radius:0.3em;-webkit-border-radius:0.3em;behavior: url('../ie-css3.htc');} 
+

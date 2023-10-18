@@ -1,0 +1,128 @@
+﻿/*=====JobNiti portal Admin=====*/
+/*------------------------------------
+	Fonts
+------------------------------------*/
+
+/*------------------------------------
+	Layout
+------------------------------------*/
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:Arial, Tahoma, Helvetica, sans-serif;
+	font-size:1em;
+}
+h1{font-family:Arial;font-size:1.2em;color:#343434;line-height:1.5em;margin-bottom:20px;padding:0.6em 0.9em}
+/* Page wrapper */
+body{background:#f1f1f1}
+#page{margin:0 auto;}
+/* Wrapper */
+.mrgAuto{margin:0 auto !important}
+.wrap980{width:980px;}
+
+/*Theme color*/
+.themeBlue{background:#0087cf}
+.themeColor{color:#0087cf}
+.themeGray{background:#dcdcdc}
+
+/*anchor*/
+.achor{color:#fff;padding:10px 15px;font-family:Arial,Tahoma;font-size:1em;text-decoration:none;display:block; cursor:pointer}
+.achor:hover{background:#028cbf}
+
+.achor-gray{color:#777;padding:10px 15px;font-family:Arial,Tahoma;font-size:1em;text-decoration:none;display:block; cursor:pointer }
+.achor-gray:hover{background:#028cbf;color:#fff}
+
+.nonResize{resize:none}
+/*Control panel*/
+#control{width:100%;height:50px;background:#222222}
+.heading{color:#fff;font-size:1em;font-family:Tahoma;}
+
+/*wrapper*/
+#pageBg{background:url(../images/wrapper.gif) repeat-y top left;height:auto;}
+.col200{float:left;display:inline;width:200px}
+.col780{float:right;display:inline;width:780px}
+
+/*menu*/
+.ach{color:#fff; font-size:1em;text-decoration:none;font-family:Tahoma;display:block;line-height:1.9em;}
+.ach:hover{background-color:#096484}
+.Dashboard{background:url(../images/dashboard.png) no-repeat 10px center;padding:3px 5px 3px 33px;}
+.Jobboard{background:url(../images/jobboard.png) no-repeat 5px center;padding:3px 5px 3px 28px;}
+.Employers{background:url(../images/employer.png) no-repeat 5px center;padding:3px 5px 3px 28px;}
+.Jobseeker{background:url(../images/jobseeker.png) no-repeat 5px center;padding:3px 5px 3px 28px;}
+.Masters{background:url(../images/dashboard.png) no-repeat 5px center;padding:3px 5px 3px 28px;}
+.Reports{background:url(../images/dashboard.png) no-repeat 5px center;padding:3px 5px 3px 28px;}
+.Utility{background:url(../images/dashboard.png) no-repeat 5px center;padding:3px 5px 3px 28px;}
+/*Menu*/
+.subNavBg{ background:#0085b7;padding:0.5em 0 0.5em 0em;}
+#navBox{display:none}
+.nav{list-style:none;display:block;float:left;}
+.nav li{display:block;text-align:left}
+.nav li a{float:none;display:block;text-decoration:none;font-size:0.9em;font-family:Tahoma, Arial;color:#e2ecf1;line-height:0.4em;padding:0.8em 0.8em 0.8em 2.1em}
+.nav li a:hover{color:#fff}
+
+/*Form*/
+/*
+#myform{width:100%}
+#myform tr td{font-size:1em;line-height:0.6em;vertical-align:top;padding:3px 0px; font-size:12; color:#343434; margin: 2em 0em;}
+*/
+.col30p{width:188px;display:inline;float:left;}
+.col70p{width:592px;display:inline;float:left;}
+.col100{width:100px;display:inline;float:left;}
+.col233{width:246px;display:inline;float:left;}
+
+.dsp-block{display:block}
+.redStar{font-family:Arial, Helvetica, sans-serif;font-size:1.1em;font-weight:normal;text-align:left;color:red}
+.label-span{font-family:Arial;font-size:1em;text-align:right;display:block;line-height:1.3em}
+.txtBox{padding:0.3em;}
+.drpdown-list{font-family:Arial;text-indent:0.3em;padding:0.3em;}
+.button{ background:#52accc;color:#fff;padding:0.3em 0.6em;cursor:pointer;font-size:0.9em; text-decoration:none}
+.txt-color{color:#515151;}
+.contBorder{border: 1px solid #cccccc;}
+.label-color{color:#555;}
+.p100{width:98%}
+.ddr100{width:100%}
+.p50{width:93%}
+
+/*GridView*/
+/* Mohsin*/
+.gvApp{border-color:#e5e5e5;border-style:solid;border-width:1px;font-family: Arial;width:100%;}
+.gvApp a { }
+.gvApp th{background-color:white;text-align:left;font-weight:bold;padding:0.8em}
+.gvApp td{padding:0.6em 0.8em;}
+.row{background-color:#f9f9f9;}
+.alt{background-color:#ffffff;}
+.myColumn{font-weight:bold;color:#008dd2}
+.HideCol{ display:none}
+.gAnch { color: #4796b3; text-decoration: none;}
+.anchor{text-decoration:none; color:#fff; background-color:#4796b3; padding:5px 8px; }
+
+/*Wrapper login*/
+.img_logo{float:left;display:inline;margin-bottom:0.6em}
+#wrapper_login{width:330px;margin:0 auto;margin-top:2.2em}
+#wrapper_login .login{width:282px;padding:24px;background-repeat:no-repeat;background:url("../images/login-canvas.png");height:190px;overflow:hidden}
+.login-txtbox{font-size:1em;border: 1px solid #cccccc; padding:0.3em;color:#515151;}
+.login-label{font-size:1em;color:#787878;margin:0.7em 0 0.3em 0;display:block}
+.login-btn{float:right;display:inline;}
+.forgt-pass{font-size:0.9em;color:#00CC99;text-decoration: underline;display: inline-block;margin-top:0.3em}
+.txt-p100{width:97%}
+
+/*forgot password*/
+#wrapper_forgtpass{width:330px;margin:0 auto;margin-top:2.2em}
+.bg-white{background:#fff}
+.for-pwd{width:280px;border:1px solid #ececec;padding:24px;}
+
+/*amenities*/
+.amenities{width:150px;display:inline;float:left;margin-bottom:15px}
+.check-box{color:#787878;font-size:1em}
+
+/*floor plans*/
+.wrapper-floor{width:260px;float:left;display:table;height:200px;position:relative;}
+.floor-plan{display:table-cell;text-align:center;vertical-align:middle;}
+.delete{position:absolute;top:15px;right:15px;}
+.floor-img100{width:100%}
+
+
+/*Footer*/
+#footer{background:#777777}
+.copy-right{font-size:0.9em;color:#fff}

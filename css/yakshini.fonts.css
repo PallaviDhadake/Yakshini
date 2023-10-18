@@ -1,0 +1,43 @@
+﻿/*------------------------------------
+	Fonts
+------------------------------------*/
+/* Amogh style */
+@font-face 
+{
+    font-family:"Ubuntu Light";
+    src:url("../resources/fonts/Ubuntu-Light.eot?") format("eot"),
+        url("../resources/fonts/Ubuntu-Light.woff") format("woff"),
+        url("../resources/fonts/Ubuntu-Light.ttf") format("truetype"),
+        url("../resources/fonts/Ubuntu-Light.svg#UbuntuLight") format("svg");
+}
+
+@font-face 
+{
+    font-family:"Ubuntu Bold";
+    src:url("../resources/fonts/Ubuntu-Bold.eot?") format("eot"),
+        url("../resources/fonts/Ubuntu-Bold.woff") format("woff"),
+        url("../resources/fonts/Ubuntu-Bold.ttf") format("truetype"),
+        url("../resources/fonts/Ubuntu-Bold.svg#UbuntuBold") format("svg");
+}
+@font-face 
+{
+    font-family:"Ubuntu Regular";
+    src:url("../resources/fonts/Ubuntu-Regular.eot?") format("eot"),
+        url("../resources/fonts/Ubuntu-Regular.woff") format("woff"),
+        url("../resources/fonts/Ubuntu-Regular.ttf") format("truetype"),
+        url("../resources/fonts/Ubuntu-Regular.svg#UbuntuRegular") format("svg");
+}
+
+
+/* Example Amogh */
+
+/*@font-face 
+{
+    font-family:"WeblySleek UI Light";
+    src:url("/resources/fonts/weblysleekuil.eot?") format("eot"),
+        url("/resources/fonts/weblysleekuil.woff") format("woff"),
+        url("/resources/fonts/weblysleekuil.ttf") format("truetype"),
+        url("/resources/fonts/weblysleekuil.svg#WeblySleekUILight") format("svg");}
+
+
+My Style */
